@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1921407_nowflix_review">state=2^EQ<item display_value="Awaiting Moderator's Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Awaiting Moderator's Approval</label>
+        <name>Awaiting Moderator's Approval</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-13 14:06:21</sys_created_on>
+        <sys_id>20a2d46483d48350ad5c9796feaad308</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Awaiting Moderator's Approval</sys_name>
+        <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
+        <sys_update_name>sys_process_flow_20a2d46483d48350ad5c9796feaad308</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-13 14:06:21</sys_updated_on>
+        <table>x_1921407_nowflix_review</table>
+    </sys_process_flow>
+</record_update>

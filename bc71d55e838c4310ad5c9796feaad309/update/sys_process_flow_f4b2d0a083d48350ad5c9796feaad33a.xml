@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1921407_nowflix_review">state=8^EQ<item display_value="Awaiting Administrator's Approval" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Awaiting Administrator's Approval</label>
+        <name>Awaiting Administrator's Approval</name>
+        <order>300</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-13 14:06:39</sys_created_on>
+        <sys_id>f4b2d0a083d48350ad5c9796feaad33a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Awaiting Administrator's Approval</sys_name>
+        <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
+        <sys_update_name>sys_process_flow_f4b2d0a083d48350ad5c9796feaad33a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-13 14:06:39</sys_updated_on>
+        <table>x_1921407_nowflix_review</table>
+    </sys_process_flow>
+</record_update>
