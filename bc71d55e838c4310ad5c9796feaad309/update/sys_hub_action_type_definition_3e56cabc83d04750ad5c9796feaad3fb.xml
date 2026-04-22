@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3e56cabc83d04750ad5c9796feaad3fb</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Convert string into string array</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_3e56cabc83d04750ad5c9796feaad3fb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-14 17:18:34</sys_updated_on>
+        <sys_updated_on>2026-04-20 12:30:14</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -166,30 +166,6 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <variable display_value="MID Application">f5e56d79b3101300176b051a16a8dce4</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=193886f083144750ad5c9796feaad33a"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>193886f083144750ad5c9796feaad33a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-14 17:18:32</sys_created_on>
-        <sys_id>913886f083144750ad5c9796feaad363</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-14 17:18:32</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>193886f083144750ad5c9796feaad33a</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-14 17:18:32</sys_created_on>
-        <sys_id>dd3886f083144750ad5c9796feaad363</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-14 17:18:32</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>separator</field>
         <id>193886f083144750ad5c9796feaad33a</id>
@@ -505,11 +481,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:32</sys_created_on>
         <sys_id>113886f083144750ad5c9796feaad357</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Array</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_193886f083144750ad5c9796feaad33a_array_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:32</sys_updated_on>
         <url/>
@@ -994,11 +970,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:31</sys_created_on>
         <sys_id>593886f083144750ad5c9796feaad323</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Separator</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3e56cabc83d04750ad5c9796feaad3fb_separator_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:31</sys_updated_on>
         <url/>
@@ -1017,11 +993,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:31</sys_created_on>
         <sys_id>853886f083144750ad5c9796feaad31d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>String</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_3e56cabc83d04750ad5c9796feaad3fb_string_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:31</sys_updated_on>
         <url/>
@@ -1041,11 +1017,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:32</sys_created_on>
         <sys_id>113886f083144750ad5c9796feaad381</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3e56cabc83d04750ad5c9796feaad3fb___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:32</sys_updated_on>
         <url/>
@@ -1064,11 +1040,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:32</sys_created_on>
         <sys_id>953886f083144750ad5c9796feaad394</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Array</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3e56cabc83d04750ad5c9796feaad3fb_array_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:32</sys_updated_on>
         <url/>
@@ -1087,11 +1063,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:32</sys_created_on>
         <sys_id>953886f083144750ad5c9796feaad39e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_3e56cabc83d04750ad5c9796feaad3fb___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:32</sys_updated_on>
         <url/>
@@ -1277,30 +1253,6 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=6938c6f083144750ad5c9796feaad300"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>6938c6f083144750ad5c9796feaad300</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-14 17:18:33</sys_created_on>
-        <sys_id>a138c6f083144750ad5c9796feaad330</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-14 17:18:33</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>6938c6f083144750ad5c9796feaad300</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-14 17:18:33</sys_created_on>
-        <sys_id>e538c6f083144750ad5c9796feaad330</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-14 17:18:33</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>separator</field>
         <id>6938c6f083144750ad5c9796feaad300</id>
@@ -1616,11 +1568,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:33</sys_created_on>
         <sys_id>2938c6f083144750ad5c9796feaad319</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Array</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_6938c6f083144750ad5c9796feaad300_array_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:33</sys_updated_on>
         <url/>
@@ -2105,11 +2057,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:33</sys_created_on>
         <sys_id>253886f083144750ad5c9796feaad3f3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>String</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ed3886f083144750ad5c9796feaad3e5_string_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:33</sys_updated_on>
         <url/>
@@ -2128,11 +2080,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:33</sys_created_on>
         <sys_id>653886f083144750ad5c9796feaad3f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Separator</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_ed3886f083144750ad5c9796feaad3e5_separator_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:33</sys_updated_on>
         <url/>
@@ -2152,11 +2104,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:34</sys_created_on>
         <sys_id>7138c6f083144750ad5c9796feaad35b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ed3886f083144750ad5c9796feaad3e5___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:34</sys_updated_on>
         <url/>
@@ -2175,11 +2127,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:33</sys_created_on>
         <sys_id>7d38c6f083144750ad5c9796feaad33e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ed3886f083144750ad5c9796feaad3e5___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:33</sys_updated_on>
         <url/>
@@ -2198,11 +2150,11 @@ outputs.array = inputs.string.toString().split(inputs.separator.toString());&#13
         <sys_created_on>2026-04-14 17:18:33</sys_created_on>
         <sys_id>b938c6f083144750ad5c9796feaad345</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Array</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_ed3886f083144750ad5c9796feaad3e5_array_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:18:33</sys_updated_on>
         <url/>

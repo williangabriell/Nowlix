@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>006451f8835c0750ad5c9796feaad3bd</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Convert seconds into Duration</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_006451f8835c0750ad5c9796feaad3bd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-14 13:41:40</sys_updated_on>
+        <sys_updated_on>2026-04-20 12:30:13</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -194,30 +194,6 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <variable display_value="Script">71aa7f6647032200b4fad7527c9a719b</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=c4961934839c0750ad5c9796feaad304"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>c4961934839c0750ad5c9796feaad304</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-14 13:41:38</sys_created_on>
-        <sys_id>80961934839c0750ad5c9796feaad322</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-14 13:41:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>c4961934839c0750ad5c9796feaad304</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-14 13:41:38</sys_created_on>
-        <sys_id>c4961934839c0750ad5c9796feaad322</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-14 13:41:38</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>seconds</field>
         <id>c4961934839c0750ad5c9796feaad304</id>
@@ -415,11 +391,11 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_on>2026-04-14 13:41:38</sys_created_on>
         <sys_id>48961934839c0750ad5c9796feaad317</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>duration</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_c4961934839c0750ad5c9796feaad304_duration_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 13:41:38</sys_updated_on>
         <url/>
@@ -797,11 +773,11 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_on>2026-04-14 13:41:38</sys_created_on>
         <sys_id>c096d534839c0750ad5c9796feaad3fd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>seconds</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_006451f8835c0750ad5c9796feaad3bd_seconds_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 13:41:38</sys_updated_on>
         <url/>
@@ -821,11 +797,11 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_on>2026-04-14 13:41:38</sys_created_on>
         <sys_id>0c961934839c0750ad5c9796feaad33e</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_006451f8835c0750ad5c9796feaad3bd___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 13:41:38</sys_updated_on>
         <url/>
@@ -844,11 +820,11 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_on>2026-04-14 13:41:38</sys_created_on>
         <sys_id>88961934839c0750ad5c9796feaad335</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>duration</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_006451f8835c0750ad5c9796feaad3bd_duration_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 13:41:38</sys_updated_on>
         <url/>
@@ -867,11 +843,11 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_on>2026-04-14 13:41:38</sys_created_on>
         <sys_id>c4961934839c0750ad5c9796feaad32f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_006451f8835c0750ad5c9796feaad3bd___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 13:41:38</sys_updated_on>
         <url/>
@@ -1086,30 +1062,6 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=d8961934839c0750ad5c9796feaad394"/>
     <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>application</field>
-        <id>d8961934839c0750ad5c9796feaad394</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-14 13:41:39</sys_created_on>
-        <sys_id>94961934839c0750ad5c9796feaad3bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-14 13:41:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>script</field>
-        <id>d8961934839c0750ad5c9796feaad394</id>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-14 13:41:39</sys_created_on>
-        <sys_id>d8961934839c0750ad5c9796feaad3bd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-14 13:41:39</sys_updated_on>
-        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
-        <value/>
-    </sys_element_mapping>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>seconds</field>
         <id>d8961934839c0750ad5c9796feaad394</id>
         <sys_created_by>admin</sys_created_by>
@@ -1306,11 +1258,11 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_on>2026-04-14 13:41:39</sys_created_on>
         <sys_id>10961934839c0750ad5c9796feaad3a7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>duration</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_d8961934839c0750ad5c9796feaad394_duration_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 13:41:39</sys_updated_on>
         <url/>
@@ -1688,11 +1640,11 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_on>2026-04-14 13:41:39</sys_created_on>
         <sys_id>d4961934839c0750ad5c9796feaad38d</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>seconds</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_50961934839c0750ad5c9796feaad381_seconds_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 13:41:39</sys_updated_on>
         <url/>
@@ -1712,11 +1664,11 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_on>2026-04-14 13:41:39</sys_created_on>
         <sys_id>20961934839c0750ad5c9796feaad3d7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_50961934839c0750ad5c9796feaad381___action_status___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 13:41:39</sys_updated_on>
         <url/>
@@ -1735,11 +1687,11 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_on>2026-04-14 13:41:39</sys_created_on>
         <sys_id>60961934839c0750ad5c9796feaad3dd</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>duration</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_50961934839c0750ad5c9796feaad381_duration_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 13:41:39</sys_updated_on>
         <url/>
@@ -1758,11 +1710,11 @@ outputs.duration = new GlideDuration(inputs.seconds * 1000);&#13;
         <sys_created_on>2026-04-14 13:41:40</sys_created_on>
         <sys_id>60961934839c0750ad5c9796feaad3e6</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_50961934839c0750ad5c9796feaad381___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 13:41:40</sys_updated_on>
         <url/>

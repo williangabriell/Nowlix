@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dab502bc83d04750ad5c9796feaad3fd</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Create / Update Genre</sys_name>
         <sys_overrides/>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
@@ -44,7 +44,7 @@
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
         <sys_update_name>sys_hub_flow_dab502bc83d04750ad5c9796feaad3fd</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-15 14:13:36</sys_updated_on>
+        <sys_updated_on>2026-04-20 12:30:22</sys_updated_on>
         <type>subflow</type>
         <updation_source/>
         <version>2</version>
@@ -682,11 +682,11 @@
         <sys_created_on>2026-04-14 17:09:07</sys_created_on>
         <sys_id>d70646fc83d04750ad5c9796feaad34b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Genres</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_dab502bc83d04750ad5c9796feaad3fd_genres_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:09:07</sys_updated_on>
         <url/>
@@ -706,11 +706,11 @@
         <sys_created_on>2026-04-14 17:09:07</sys_created_on>
         <sys_id>570646fc83d04750ad5c9796feaad37a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Genre sys_id List</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_dab502bc83d04750ad5c9796feaad3fd_genre_sys_id_list_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:09:07</sys_updated_on>
         <url/>
@@ -1393,11 +1393,11 @@
         <sys_created_on>2026-04-14 17:36:06</sys_created_on>
         <sys_id>ee3c82f883144750ad5c9796feaad30a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Genres</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2a3c42f883144750ad5c9796feaad3f8_genres_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:36:06</sys_updated_on>
         <url/>
@@ -1417,11 +1417,11 @@
         <sys_created_on>2026-04-14 17:36:06</sys_created_on>
         <sys_id>3a3c82f883144750ad5c9796feaad318</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Genre sys_id List</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_2a3c42f883144750ad5c9796feaad3f8_genre_sys_id_list_en</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2026-04-14 17:36:06</sys_updated_on>
         <url/>
@@ -1438,7 +1438,7 @@
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
         <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_subflow_plan","id":"7e3c82f883144750ad5c9796feaad37d","name":"plan","plan_signature":null}}</plan>
         <plan_id display_value="Create / Update Genre">dab502bc83d04750ad5c9796feaad3fd</plan_id>
-        <snapshot>92772e4d83d4c750ad5c9796feaad34f</snapshot>
+        <snapshot>89a1447e8398031027aba6d0deaad3e8</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-14 17:36:07</sys_created_on>
         <sys_domain>global</sys_domain>

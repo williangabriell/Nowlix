@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="genre" table="x_1921407_nowflix_media">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
