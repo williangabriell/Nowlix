@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="adde01a6830cc310ad5c9796feaad3ed" label="Genre" max_length="40" name="x_1921407_nowflix_genre" type="collection">
+        <element display="true" label="Name" max_length="250" name="name" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1921407_nowflix.ReviewFilterUtils</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ReviewFilterUtils</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ReviewFilterUtils = Class.create();
+ReviewFilterUtils.prototype = {
+    initialize: function() {},
+
+    getEligibleMedia: function() {
+        var userId = gs.getUserID();
+        var reviewedMedia = [];
+
+        // 1. Buscar reviews que o usuário logado já fez
+        var grReview = new GlideRecord('x_1921407_nowflix_review');
+        grReview.addQuery('user', userId); // Certifique-se que o campo de usuário na tabela chama u_user
+        grReview.addQuery('state', '!=', 'reproved'); // Ignora as reprovadas
+        grReview.query();
+
+        while (grReview.next()) {
+            reviewedMedia.push(grReview.getValue('media')); // Pega o ID do filme já avaliado
+        }
+
+        // 2. Retorna o filtro para a variável 'Media' do Record Producer
+        if (reviewedMedia.length > 0) {
+            // "Me mostre apenas filmes cujo sys_id NÃO esteja na lista de avaliados"
+            return 'sys_idNOT IN' + reviewedMedia.join(',');
+        }
+
+        return ''; // Se não tiver feito review nenhuma, mostra tudo
+    },
+
+    type: 'ReviewFilterUtils'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-22 14:51:26</sys_created_on>
+        <sys_id>3282bad78354031027aba6d0deaad313</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>ReviewFilterUtils</sys_name>
+        <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
+        <sys_update_name>sys_script_include_3282bad78354031027aba6d0deaad313</sys_update_name>
+        <sys_updated_by>nowflix.administrator</sys_updated_by>
+        <sys_updated_on>2026-04-22 14:57:15</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</application>
+        <file_path/>
+        <instance_id>acb5df9afbd7dad0843df4344eefdc1d</instance_id>
+        <instance_name>dev292903</instance_name>
+        <name>sys_script_include_3282bad78354031027aba6d0deaad313</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1921407_nowflix.ReviewFilterUtils&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;ReviewFilterUtils&lt;/name&gt;&lt;sandbox_callable&gt;false&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var ReviewFilterUtils = Class.create();
+ReviewFilterUtils.prototype = {
+    initialize: function() {},
+
+    getEligibleMedia: function() {
+        var userId = gs.getUserID();
+        var reviewedMedia = [];
+
+        // 1. Buscar reviews que o usuário logado já fez
+        var grReview = new GlideRecord('x_1921407_nowflix_review');
+        grReview.addQuery('user', userId); // Certifique-se que o campo de usuário na tabela chama u_user
+        grReview.addQuery('state', '!=', 'reproved'); // Ignora as reprovadas
+        grReview.query();
+
+        while (grReview.next()) {
+            reviewedMedia.push(grReview.getValue('media')); // Pega o ID do filme já avaliado
+        }
+
+        // 2. Retorna o filtro para a variável 'Media' do Record Producer
+        if (reviewedMedia.length &gt; 0) {
+            // "Me mostre apenas filmes cujo sys_id NÃO esteja na lista de avaliados"
+            return 'sys_idNOT IN' + reviewedMedia.join(',');
+        }
+
+        return ''; // Se não tiver feito review nenhuma, mostra tudo
+    },
+
+    type: 'ReviewFilterUtils'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-22 14:51:26&lt;/sys_created_on&gt;&lt;sys_id&gt;3282bad78354031027aba6d0deaad313&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;ReviewFilterUtils&lt;/sys_name&gt;&lt;sys_package display_value="Nowflix" source="x_1921407_nowflix"&gt;bc71d55e838c4310ad5c9796feaad309&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Nowflix"&gt;bc71d55e838c4310ad5c9796feaad309&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_3282bad78354031027aba6d0deaad313&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;nowflix.administrator&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-22 14:57:15&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1162212266</payload_hash>
+        <record_name>ReviewFilterUtils</record_name>
+        <reverted_from/>
+        <source>0d10447a8398031027aba6d0deaad314</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>nowflix.administrator</sys_created_by>
+        <sys_created_on>2026-04-22 14:57:15</sys_created_on>
+        <sys_id>f594725f8354031027aba6d0deaad364</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19db5b2046d0000001</sys_recorded_at>
+        <sys_updated_by>nowflix.administrator</sys_updated_by>
+        <sys_updated_on>2026-04-22 14:57:15</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>3194b21f03540310e76cd37e4a713f92</update_guid>
+        <update_guid_history>3194b21f03540310e76cd37e4a713f92:-1162212266,99c336dbd55403101db075494f984fbe:-1402511116,7043b65b815403100dc49087fcd11025:-1162212266</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nowflix.administrator</sys_created_by>
+        <sys_created_on>2026-04-22 16:13:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>087f18c89a0048e6807d2f37696235c1</sys_id>
+        <sys_metadata>3282bad78354031027aba6d0deaad313</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ReviewFilterUtils</sys_name>
+        <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
+        <sys_scope_delete display_value="">249d8a012e144e62984aefc85ccff059</sys_scope_delete>
+        <sys_update_name>sys_script_include_3282bad78354031027aba6d0deaad313</sys_update_name>
+        <sys_update_version display_value="sys_script_include_3282bad78354031027aba6d0deaad313">f594725f8354031027aba6d0deaad364</sys_update_version>
+        <sys_updated_by>nowflix.administrator</sys_updated_by>
+        <sys_updated_on>2026-04-22 16:13:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

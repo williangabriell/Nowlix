@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a4326dea838cc310ad5c9796feaad398" label="Media" max_length="40" name="x_1921407_nowflix_media" type="collection">
+        <element label="Release Year" max_length="4" name="release_year" type="string"/>
+        <element label="Poster" max_length="1024" name="poster" type="url"/>
+        <element label="Awards" max_length="250" name="awards" type="string"/>
+        <element label="Release Date" max_length="255" name="release_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Average rating" max_length="255" name="average_rating" type="float"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="Genre" max_length="1024" name="genre" reference="x_1921407_nowflix_genre" type="glide_list"/>
+        <element label="Writers" max_length="4000" name="writers" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="200" value="3"/>
+                <element inactive_on_update="false" label="Draft" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Duplicate" sequence="300" value="7"/>
+            </choice>
+        </element>
+        <element label="Website" max_length="1024" name="website" type="url"/>
+        <element label="Category" max_length="40" name="category" type="string"/>
+        <element label="Country" max_length="250" name="country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Metascore" max_length="40" name="metascore" type="integer"/>
+        <element label="Integration Error Message" max_length="1000" name="integration_error_message" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="1" label="Integration State" max_length="40" name="integration_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Starting" sequence="100" value="1"/>
+                <element inactive_on_update="false" label="Integrating" sequence="200" value="2"/>
+                <element inactive_on_update="false" label="Media not Found" sequence="500" value="7"/>
+                <element inactive_on_update="false" label="Integration Failure" sequence="400" value="4"/>
+                <element inactive_on_update="false" label="Integration Success" sequence="300" value="3"/>
+            </choice>
+        </element>
+        <element label="Synopsis" max_length="4000" name="synopsis" type="string"/>
+        <element display="true" label="Title" max_length="250" name="title" type="string"/>
+        <element label="Production" max_length="250" name="production" type="string"/>
+        <element label="Language" max_length="250" name="language" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Series" sequence="2" value="series"/>
+                <element inactive_on_update="false" label="Episode" sequence="0" value="episode"/>
+                <element inactive_on_update="false" label="Movie" sequence="1" value="movie"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" default="0" label="IMDB Rating" max_length="40" name="imdb_rating" type="float"/>
+    </element>
+</database>

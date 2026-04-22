@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3f948aae83800710ad5c9796feaad396" extends="task" label="Suggestion" max_length="40" name="x_1921407_nowflix_suggestion" type="collection">
+        <element label="Reproval Reason" max_length="4000" name="reproval_reason" type="string"/>
+        <element label="Release Year" max_length="4" name="release_year" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Movie" sequence="0" value="movie"/>
+                <element inactive_on_update="false" label="Series" sequence="1" value="series"/>
+            </choice>
+        </element>
+        <element label="Title" max_length="250" name="title" type="string"/>
+    </element>
+</database>
