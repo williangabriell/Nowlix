@@ -61,7 +61,7 @@
         <record/>
         <record_producer_table>x_1921407_nowflix_review</record_producer_table>
         <reference>x_1921407_nowflix_media</reference>
-        <reference_qual/>
+        <reference_qual>javascript:new x_1921407_nowflix.NowflixUtils2().refQualMedia()</reference_qual>
         <reference_qual_condition/>
         <rich_text/>
         <roles_to_use_also_request_for/>
@@ -82,14 +82,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-04-08 19:09:25</sys_created_on>
         <sys_id>b0de57b6830c8710ad5c9796feaad3f7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Media</sys_name>
         <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
         <sys_update_name>item_option_new_b0de57b6830c8710ad5c9796feaad3f7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-08 19:13:18</sys_updated_on>
+        <sys_updated_on>2026-04-22 18:45:36</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
@@ -97,7 +97,7 @@
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>simple</use_reference_qualifier>
+        <use_reference_qualifier>advanced</use_reference_qualifier>
         <validate_regex/>
         <variable_name/>
         <variable_set/>
