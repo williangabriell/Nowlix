@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="Media Dashboard">f7d53be783d8831027aba6d0deaad318</dashboard>
+        <dashboard_tab/>
+        <layout>[{"sys_id":"a5a8bb6f83d8831027aba6d0deaad364","x":8,"y":0,"w":28,"h":4,"component_id":"1f6e0643eca7a637e36bd7833549ec9e","component_props":"{\"variant\":\"header-primary\",\"label\":\"We make work, work better for people with modern digital workflows\",\"wontWrap\":false,\"hasNoMargin\":false,\"level\":\"1\"}","can_edit":true}]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 14:20:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7bd5376b83d8831027aba6d0deaad3d0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
+        <sys_update_name>par_dashboard_canvas_7bd5376b83d8831027aba6d0deaad3d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 16:43:03</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>

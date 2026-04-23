@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Nowflix">1f164968835c8350ad5c9796feaad335</category>
+        <order>400</order>
+        <property display_value="x_1921407_nowflix.integration_plot" name="x_1921407_nowflix.integration_plot">5618412c835c8350ad5c9796feaad357</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-13 18:00:45</sys_created_on>
+        <sys_id>714885e8835c8350ad5c9796feaad3a5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1921407_nowflix.integration_plot.Nowflix</sys_name>
+        <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_714885e8835c8350ad5c9796feaad3a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-13 18:02:04</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1921407_nowflix_media">state=7^EQ<item display_value="Duplicate" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="7"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Duplicate</label>
+        <name>Duplicate</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-20 14:27:39</sys_created_on>
+        <sys_id>20aa14fe835c031027aba6d0deaad322</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Duplicate</sys_name>
+        <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
+        <sys_update_name>sys_process_flow_20aa14fe835c031027aba6d0deaad322</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-20 14:27:39</sys_updated_on>
+        <table>x_1921407_nowflix_media</table>
+    </sys_process_flow>
+</record_update>

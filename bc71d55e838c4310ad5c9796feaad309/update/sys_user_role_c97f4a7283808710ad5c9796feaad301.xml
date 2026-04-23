@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <federated_id>X1bDV3K7k/3+aEtpOE9gXF7nEgT/mBbU7MabfLQ67LQ=</federated_id>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1921407_nowflix.tabela_teste_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>tabela_teste_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 12:42:21</sys_created_on>
+        <sys_id>c97f4a7283808710ad5c9796feaad301</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1921407_nowflix.tabela_teste_user</sys_name>
+        <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
+        <sys_update_name>sys_user_role_c97f4a7283808710ad5c9796feaad301</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 12:42:21</sys_updated_on>
+    </sys_user_role>
+</record_update>
