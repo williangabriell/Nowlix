@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_visualization">
+    <par_visualization action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <certified>false</certified>
+        <description/>
+        <macroponent display_value="Single score">d24d53f60350de7a652caf3188a46ed2</macroponent>
+        <name>Number of Awaiting Approval Review</name>
+        <properties>{"configVersion":"23.0.0-ci-SNAPSHOT","scoreSize":"auto","headingPosition":"top","sparklineStyle":"area","scoreIcon":"","iconStyle":"background","showScoreDate":false,"useRelativeScoreTime":false,"showScoreUpdateTime":false,"showZero":true,"colorConfig":{"type":"singleColor","values":[{"color":"65b3033aa9fe3dba01f3c82a0f1ba12c","metric":"ZEdGaWJHVjRYekU1TWpFME1EZGZibTkzWm14cGVGOXlaWFpwWlhjeE56YzJPVFl4TnpBNE5UTTMxNzc2OTYxNzA5MTg5","rules":[]}]},"newReporting":false,"enableAddZerosAtApi":true,"additionalGroupByConfig":[],"dataSources":[{"isDatabaseView":false,"allowRealTime":true,"label":"Review","sourceType":"table","tableOrViewName":"x_1921407_nowflix_review","filterQuery":"stateIN2,8","preferredVisualizations":["d24d53f60350de7a652caf3188a46ed2"],"id":"dGFibGV4XzE5MjE0MDdfbm93ZmxpeF9yZXZpZXcxNzc2OTYxNzA4NTM3","dataCategories":["trend","group","simple"]}],"showHeader":true,"showTotalAggregate":false,"showSubAggregate":false,"showFirstGroupAggregate":false,"showSecondGroupAggregate":false,"hideMatrixAggregate":false,"wrapTitle":false,"showLoadingIndicator":false,"showHeaderSeparator":true,"contextMenuActions":[],"headerTitle":"Number of Awaiting Approval Review","headingLevel":2,"showBorder":true,"bareBorder":false,"telemetry":null,"showDataPassthrough":false,"refreshRequest":"","showAdditionalGroupBySelector":false,"allowAdditionalGroupByPerMetric":false,"dataPassthrough":null,"metrics":[{"dataSource":"dGFibGV4XzE5MjE0MDdfbm93ZmxpeF9yZXZpZXcxNzc2OTYxNzA4NTM3","id":"ZEdGaWJHVjRYekU1TWpFME1EZGZibTkzWm14cGVGOXlaWFpwWlhjeE56YzJPVFl4TnpBNE5UTTMxNzc2OTYxNzA5MTg5","aggregateFunction":"COUNT","numberFormat":{"customFormat":false},"axisId":"primary"}],"groupBy":null,"filterPerMetric":[],"sortBy":"value","sortByOrder":"desc","trendBy":null,"showChange":false,"showChangePercentage":false,"showTarget":false,"showForecast":false,"showForecastRange":false,"showTrend":false,"showConfidenceBand":false,"showGapPercentage":false,"showSparkline":false,"showMetricLabel":false,"showThreshold":false,"showComment":false,"followFilters":true,"showFilterIcon":true,"enableRealTimeUpdate":false,"enableDrilldown":true,"enableClickAndStay":false,"showDataTable":false,"enableCustomEmptyState":false,"componentId":"8wh9pisw","emptyStateIllustration":"no-data","emptyStateHeading":"No data available.","emptyStateHeadingLevel":3,"emptyStateContent":"There are no scores available for the selected criteria. Contact your admin for more info.","emptyStateAlignment":"vertical-centered","refreshFrequency":null,"hideDevSettings":false,"configPropModifiers":{},"showMaximumRange":false,"allowChangeDateRange":false,"showDateRangeByDefault":false,"applyDateRange":false,"numberOfPeriods":3,"showAbsolutePeriod":false,"scoreType":null,"showChangeFrom":false,"useCurrentDateForEnd":false,"period":"M","useDataCache":false,"cacheExpirationTime":0,"showCacheTime":true,"dateFormat":"default","showRefresh":true,"showFilterAsSeparateSeries":false,"id":"colorConfig","value":{"type":"singleColor","values":[{"color":"65b3033aa9fe3dba01f3c82a0f1ba12c","metric":"ZEdGaWJHVjRYekU1TWpFME1EZGZibTkzWm14cGVGOXlaWFpwWlhjeE56YzJPVFl4TnpBNE5UTTMxNzc2OTYxNzA5MTg5","rules":[]}]},"noDebounce":true,"propLabel":"Colors"}</properties>
+        <requested_by/>
+        <scheduled_count>0</scheduled_count>
+        <sys_class_name>par_visualization</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-23 16:35:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81a4543783dc831027aba6d0deaad313</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Number of Awaiting Approval Review</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_1921407_nowflix">bc71d55e838c4310ad5c9796feaad309</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">bc71d55e838c4310ad5c9796feaad309</sys_scope>
+        <sys_update_name>par_visualization_81a4543783dc831027aba6d0deaad313</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-23 16:43:03</sys_updated_on>
+        <type>Single score</type>
+    </par_visualization>
+</record_update>
